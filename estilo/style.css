@@ -37,7 +37,7 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 20px;
-    overflow: hidden;
+    overflow:scroll
     display: block;
     transition: width .3s, height .3s;
 
