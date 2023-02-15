@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+/*
+    paleta de cores:
+    verde:#49a09d
+    lilás:#5f2c82
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-align: center;
+
+}
+
+body,
+HTMl {
+    background-color: #5f2c82;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+#login {
+    background-color: white;
+    width: 260px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    overflow: hidden;
+    display: block;
+    transition: width .3s, height .3s;
+
+
+}
+
+h1 {
+    padding: 5px;
+    text-align: center;
+
+}
+
+p {
+    margin: 3px;
+}
+
+#imagem {
+    background: #5f2c82 url(../imagem/pexels-vlada-karpovich-4451740.jpg) no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    height: 200px;
+    display: block;
+}
+
+#formulario {
+    padding: 10px;
+    margin-left: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.275);
+    display: block;
+
+}
+
+input {
+    padding: 10px;
+    margin-top: 5px;
+    background-color: #6ffffa;
+    border: 1px solid #5f2c82;
+    border-radius: 10px;
+    box-shadow: -2px -2px 5px 0px #000000ad;
+    text-align: left;
+
+}
+
+#person {
+    width: 95%;
+    height: 40px;
+    margin: auto;
+    background-color: #5f2c82;
+    display: flow-root;
+    border-radius: 10px;
+    color: white;
+
+}
+
+#key {
+    width: 95%;
+    height: 45px;
+    margin: auto;
+    margin-top: 5px;
+    background-color: #5f2c82;
+    display: flow-root;
+    border-radius: 10px;
+    color: white;
+
+}
+
+#enviar {
+    width: 95%;
+    height: 45px;
+    margin: auto;
+    color: white;
+    margin-top: 5px;
+    box-shadow: 0px 0px 0px 0px black;
+    display: flow-root;
+    text-align: center;
+
+}
+
+#enviar:hover {
+    cursor: pointer;
+    background-color: #028884;
+
+}
+
+.button {
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid #49a09d;
+    width: 95%;
+    height: 40px;
+    margin: auto;
+    margin-top: 5px;
+    display: flow-root;
+
+}
+
+#link {
+    text-decoration: none;
+    color: #3a8885;
+}
+
+.button:hover {
+    background-color: aquamarine;
+}
+
+#link:hover {
+    background-color: aquamarine;
+
+}
