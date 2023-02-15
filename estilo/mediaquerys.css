@@ -6,13 +6,13 @@
 
      section#login {
          width: 80vw;
-         height: 70vh;
+         height: 50vh;
 
      }
 
      h1,
      p {
-         font-size: 2em;
+         font-size: 1.5em;
      }
 
      #person,
