@@ -7,6 +7,8 @@
      section#login {
          width: 80vw;
          height: 50vh;
+         min-height: 290px;
+
 
      }
 
@@ -40,7 +42,7 @@
          height: 100%;
      }
 
-     .formulario {
+     #formulario {
          float: right;
          width: 60%;
      }
@@ -64,7 +66,7 @@
 
      }
 
-     .formulario {
+     #formulario {
          float: left;
          width: 60%;
          height: 100%;
